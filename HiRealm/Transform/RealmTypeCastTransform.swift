@@ -7,7 +7,7 @@
 
 import RealmSwift
 import ObjectMapper
-import HiCore
+import HiDomain
 
 /// Transforms Swift Arrays to Realm Arrays. E.g. [String] to List<String>.
 /// Additionally, it will type cast value if type mismatches. E.g. "123" String to 123 Int.
