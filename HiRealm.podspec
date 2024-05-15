@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiRealm'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Realm layer.'
   s.description      = <<-DESC
 						Realm layer using Swift.
