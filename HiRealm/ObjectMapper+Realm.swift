@@ -8,7 +8,7 @@
 import Foundation
 import ObjectMapper
 import RealmSwift
-import HiDomain
+import HiCore
 
 public func <- <T: RealmCollectionValue & Mappable>(left: RealmSwift.List<T>, right: ObjectMapper.Map) {
     if right.mappingType == .toJSON {
