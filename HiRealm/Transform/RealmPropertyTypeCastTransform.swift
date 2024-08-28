@@ -7,7 +7,7 @@
 
 import RealmSwift
 import ObjectMapper
-import HiDomain
+import HiBase
 
 /// Transforms Swift numeric to `RealmProperty<T>`.
 /// E.g. Int? to RealmOptional<Int?>.
