@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiRealm'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'Realm module.'
   s.description      = <<-DESC
 						Realm module using Swift.
@@ -15,8 +15,21 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.frameworks = 'Foundation'
   
-  s.source_files = 'HiRealm/**/*'
-  s.dependency 'HiBase', '~> 1.0'
-  s.dependency 'RealmSwift', '~> 10.0'
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'HiRealm/Core/**/*'
+    ss.dependency 'HiBase', '~> 1.0'
+    ss.dependency 'RealmSwift', '~> 10.0'
+  end
+  
+  s.subspec 'RxSwift' do |ss|
+    ss.source_files = 'HiRealm/RxSwift/**/*'
+  	ss.dependency 'HiRealm/Core'
+	ss.dependency 'RxRealm', '~> 5.0'
+  end
+  
+  s.subspec 'Combine' do |ss|
+    ss.source_files = 'HiRealm/Combine/**/*'
+  	ss.dependency 'HiRealm/Core'
+  end
   
 end

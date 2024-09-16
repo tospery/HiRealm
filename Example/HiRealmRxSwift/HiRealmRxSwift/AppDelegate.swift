@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  HiRealm
+//  HiRealmRxSwift
 //
-//  Created by tospery on 05/14/2024.
+//  Created by tospery on 09/17/2024.
 //  Copyright (c) 2024 tospery. All rights reserved.
 //
 

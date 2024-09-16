@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E11A9B8C1AA7DA309167CD0 /* Pods_HiRealm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A463B82820AFD8541D28373 /* Pods_HiRealm_Example.framework */; };
+		134AF2C74993E8CE8F689AE7 /* Pods_HiRealmRxSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D519E03A48C480A28FB489B7 /* Pods_HiRealmRxSwift_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -16,19 +16,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A463B82820AFD8541D28373 /* Pods_HiRealm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiRealm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A17896D1389C9B704A329BE /* Pods-HiRealm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiRealm_Example.release.xcconfig"; path = "Target Support Files/Pods-HiRealm_Example/Pods-HiRealm_Example.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* HiRealm_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiRealm_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3C3BF50055F60D1EB8EC17 /* HiRealmRxSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = HiRealmRxSwift.podspec; path = ../HiRealmRxSwift.podspec; sourceTree = "<group>"; };
+		1E1B02FB1DCC442EBBFE7CF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		337A27D716D094DD2FAE5A6B /* Pods-HiRealmRxSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiRealmRxSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-HiRealmRxSwift_Example/Pods-HiRealmRxSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* HiRealmRxSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiRealmRxSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		764A253ACFE0B007A35A03CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A13DEA416FFA82D14898A61C /* Pods-HiRealm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiRealm_Example.debug.xcconfig"; path = "Target Support Files/Pods-HiRealm_Example/Pods-HiRealm_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AEB5BADE815F1745853B4AA7 /* HiRealm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HiRealm.podspec; path = ../HiRealm.podspec; sourceTree = "<group>"; };
-		B0183DF3908B2B8017B8B9F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A6E8BD46B0DC4409C75CA2AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D519E03A48C480A28FB489B7 /* Pods_HiRealmRxSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiRealmRxSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA30E4665E41FAAAF539461 /* Pods-HiRealmRxSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiRealmRxSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-HiRealmRxSwift_Example/Pods-HiRealmRxSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,33 +36,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E11A9B8C1AA7DA309167CD0 /* Pods_HiRealm_Example.framework in Frameworks */,
+				134AF2C74993E8CE8F689AE7 /* Pods_HiRealmRxSwift_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B932E08E0CE43A3DA49556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAA30E4665E41FAAAF539461 /* Pods-HiRealmRxSwift_Example.debug.xcconfig */,
+				337A27D716D094DD2FAE5A6B /* Pods-HiRealmRxSwift_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for HiRealm */,
+				607FACD21AFB9204008FA782 /* Example for HiRealmRxSwift */,
 				607FACD11AFB9204008FA782 /* Products */,
-				A278146DF993198E0BD36AB4 /* Pods */,
-				AAB79524B4C49118D397EC3B /* Frameworks */,
+				29B932E08E0CE43A3DA49556 /* Pods */,
+				6DC267014FD8F4C54A37E0E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* HiRealm_Example.app */,
+				607FACD01AFB9204008FA782 /* HiRealmRxSwift_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for HiRealm */ = {
+		607FACD21AFB9204008FA782 /* Example for HiRealmRxSwift */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -72,8 +81,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for HiRealm";
-			path = HiRealm;
+			name = "Example for HiRealmRxSwift";
+			path = HiRealmRxSwift;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -87,26 +96,17 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				AEB5BADE815F1745853B4AA7 /* HiRealm.podspec */,
-				B0183DF3908B2B8017B8B9F8 /* README.md */,
-				764A253ACFE0B007A35A03CB /* LICENSE */,
+				1C3C3BF50055F60D1EB8EC17 /* HiRealmRxSwift.podspec */,
+				1E1B02FB1DCC442EBBFE7CF7 /* README.md */,
+				A6E8BD46B0DC4409C75CA2AA /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A278146DF993198E0BD36AB4 /* Pods */ = {
+		6DC267014FD8F4C54A37E0E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A13DEA416FFA82D14898A61C /* Pods-HiRealm_Example.debug.xcconfig */,
-				5A17896D1389C9B704A329BE /* Pods-HiRealm_Example.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		AAB79524B4C49118D397EC3B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1A463B82820AFD8541D28373 /* Pods_HiRealm_Example.framework */,
+				D519E03A48C480A28FB489B7 /* Pods_HiRealmRxSwift_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,23 +114,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* HiRealm_Example */ = {
+		607FACCF1AFB9204008FA782 /* HiRealmRxSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HiRealm_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HiRealmRxSwift_Example" */;
 			buildPhases = (
-				4595112F60FEB81FF0CA662C /* [CP] Check Pods Manifest.lock */,
+				A9A6A7F51E82E8BB5DC7A54F /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BB444CD7049E647B5EB3BABF /* [CP] Embed Pods Frameworks */,
+				68BF3A3A29ACD6E9655E77E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HiRealm_Example;
-			productName = HiRealm;
-			productReference = 607FACD01AFB9204008FA782 /* HiRealm_Example.app */;
+			name = HiRealmRxSwift_Example;
+			productName = HiRealmRxSwift;
+			productReference = 607FACD01AFB9204008FA782 /* HiRealmRxSwift_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HiRealm" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HiRealmRxSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* HiRealm_Example */,
+				607FACCF1AFB9204008FA782 /* HiRealmRxSwift_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -182,7 +182,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4595112F60FEB81FF0CA662C /* [CP] Check Pods Manifest.lock */ = {
+		68BF3A3A29ACD6E9655E77E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiRealmRxSwift_Example/Pods-HiRealmRxSwift_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HiBase/HiBase.framework",
+				"${BUILT_PRODUCTS_DIR}/HiRealm/HiRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HiBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HiRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiRealmRxSwift_Example/Pods-HiRealmRxSwift_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A6A7F51E82E8BB5DC7A54F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,39 +233,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HiRealm_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HiRealmRxSwift_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB444CD7049E647B5EB3BABF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HiRealm_Example/Pods-HiRealm_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HiBase/HiBase.framework",
-				"${BUILT_PRODUCTS_DIR}/HiRealm/HiRealm.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HiBase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HiRealm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiRealm_Example/Pods-HiRealm_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -367,10 +375,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A13DEA416FFA82D14898A61C /* Pods-HiRealm_Example.debug.xcconfig */;
+			baseConfigurationReference = DAA30E4665E41FAAAF539461 /* Pods-HiRealmRxSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HiRealm/Info.plist;
+				INFOPLIST_FILE = HiRealmRxSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -383,10 +391,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A17896D1389C9B704A329BE /* Pods-HiRealm_Example.release.xcconfig */;
+			baseConfigurationReference = 337A27D716D094DD2FAE5A6B /* Pods-HiRealmRxSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HiRealm/Info.plist;
+				INFOPLIST_FILE = HiRealmRxSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -400,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HiRealm" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HiRealmRxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -409,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HiRealm_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HiRealmRxSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

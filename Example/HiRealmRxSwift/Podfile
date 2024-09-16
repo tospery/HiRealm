@@ -3,8 +3,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '16.0'
 use_frameworks!
 
-target 'HiRealm_Example' do
-  pod 'HiRealm', :path => '../'
+target 'HiRealmRxSwift_Example' do
+  pod 'HiRealm/RxSwift', :path => '../../'
 
 end
 
