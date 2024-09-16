@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Combine' do |ss|
     ss.source_files = 'HiRealm/Combine/**/*'
+	ss.frameworks = 'Combine'
   	ss.dependency 'HiRealm/Core'
   end
   
