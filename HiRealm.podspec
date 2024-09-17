@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.frameworks = 'Foundation'
   
-  s.source_files = 'HiBase/**/*'
+  s.source_files = 'HiRealm/**/*'
   s.dependency 'HiBase', '~> 1.0'
   s.dependency 'RealmSwift', '~> 10.0'
   
