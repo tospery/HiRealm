@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HiRealmCore
+//  HiRealm
 //
 //  Created by tospery on 09/17/2024.
 //  Copyright (c) 2024 tospery. All rights reserved.
