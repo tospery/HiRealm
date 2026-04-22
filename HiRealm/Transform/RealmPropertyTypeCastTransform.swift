@@ -6,7 +6,7 @@
 //
 
 import RealmSwift
-import ObjectMapper
+import HiMapper
 import HiBase
 
 /// Transforms Swift numeric to `RealmProperty<T>`.

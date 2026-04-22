@@ -6,7 +6,7 @@
 //
 
 import RealmSwift
-import ObjectMapper
+import HiMapper
 
 /// Transforms Swift numeric to `RealmProperty<T>`.
 /// E.g. `Int?` to `RealmProperty<Int>` or `Double` to `RealmProperty<Int>`.

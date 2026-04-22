@@ -1,16 +1,16 @@
 //
-//  ObjectMapper+Realm.swift
+//  HiMapper+Realm.swift
 //  HiUIKit
 //
 //  Created by 杨建祥 on 2024/5/13.
 //
 
 import Foundation
-import ObjectMapper
+import HiMapper
 import RealmSwift
 import HiBase
 
-public func <- <T: RealmCollectionValue & Mappable>(left: RealmSwift.List<T>, right: ObjectMapper.Map) {
+public func <- <T: RealmCollectionValue & Mappable>(left: RealmSwift.List<T>, right: HiMapper.Map) {
     if right.mappingType == .toJSON {
         Array(left) >>> right
     } else if right.mappingType == .fromJSON {
@@ -31,7 +31,7 @@ public func <- <T: RealmCollectionValue & Mappable>(left: RealmSwift.List<T>, ri
     }
 }
 
-public func <- <T: RealmCollectionValue>(left: RealmSwift.List<T>, right: ObjectMapper.Map) {
+public func <- <T: RealmCollectionValue>(left: RealmSwift.List<T>, right: HiMapper.Map) {
     if right.mappingType == .toJSON {
         Array(left) >>> right
         
@@ -53,7 +53,7 @@ public func <- <T: RealmCollectionValue>(left: RealmSwift.List<T>, right: Object
     }
 }
 
-public func <- <T: RealmCollectionValue, Transform: TransformType>(left: RealmSwift.List<T>, right: (ObjectMapper.Map, Transform)) where T == Transform.Object {
+public func <- <T: RealmCollectionValue, Transform: TransformType>(left: RealmSwift.List<T>, right: (HiMapper.Map, Transform)) where T == Transform.Object {
     let map = right.0
     if map.mappingType == .toJSON {
         Array(left) >>> right
@@ -76,7 +76,7 @@ public func <- <T: RealmCollectionValue, Transform: TransformType>(left: RealmSw
     }
 }
 
-public func <- <T: RealmCollectionValue>(left: RealmProperty<T?>, right: ObjectMapper.Map) {
+public func <- <T: RealmCollectionValue>(left: RealmProperty<T?>, right: HiMapper.Map) {
     if right.mappingType == .toJSON {
         left.value >>> right
         
@@ -89,7 +89,7 @@ public func <- <T: RealmCollectionValue>(left: RealmProperty<T?>, right: ObjectM
     }
 }
 
-public func <- <T: RealmCollectionValue, Transform: TransformType>(left: RealmProperty<T?>, right: (ObjectMapper.Map, Transform)) where T == Transform.Object {
+public func <- <T: RealmCollectionValue, Transform: TransformType>(left: RealmProperty<T?>, right: (HiMapper.Map, Transform)) where T == Transform.Object {
     let map = right.0
     let transform = right.1
     if map.mappingType == .toJSON {

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ObjectMapper
+import HiMapper
 import RealmSwift
 
 public struct RealmListTransform<T: RealmSwift.Object>: TransformType where T: BaseMappable {

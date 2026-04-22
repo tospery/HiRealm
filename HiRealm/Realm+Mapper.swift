@@ -1,12 +1,12 @@
 //
-//  Realm+ObjectMapper.swift
+//  Realm+Mapper.swift
 //  HiUIKit
 //
 //  Created by 杨建祥 on 2024/5/13.
 //
 
 import Foundation
-import ObjectMapper
+import HiMapper
 import RealmSwift
 
 public extension Object {

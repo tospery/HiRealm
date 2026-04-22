@@ -6,7 +6,7 @@
 //
 
 import RealmSwift
-import ObjectMapper
+import HiMapper
 import HiBase
 
 /// Transforms Swift Arrays to Realm Arrays. E.g. [String] to List<String>.
