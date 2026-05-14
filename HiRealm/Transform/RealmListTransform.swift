@@ -9,7 +9,7 @@ import Foundation
 import HiMapper
 import RealmSwift
 
-public struct RealmListTransform<T: RealmSwift.Object>: TransformType where T: BaseMappable {
+public struct RealmListTransform<T: RealmSwift.RealmCollectionValue>: TransformType where T: BaseMappable {
     
     public init() { }
     
