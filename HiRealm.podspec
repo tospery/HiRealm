@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiRealm'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'Realm module.'
   s.description      = <<-DESC
 						Realm module using Swift.
